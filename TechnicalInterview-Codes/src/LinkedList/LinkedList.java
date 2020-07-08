@@ -20,7 +20,8 @@ public class LinkedList {
 		LL_Display llDisplay=new LL_Display();
 		LL_InsertAfterParticularElement insEle=new LL_InsertAfterParticularElement();
 		LL_ReverseALinkedList reverse=new LL_ReverseALinkedList();
-		
+		LL_DeleteFromBeg delBeg=new LL_DeleteFromBeg();
+		LL_DeletedTargetElement delTarget=new LL_DeletedTargetElement();
 		
 		
 		head=insBeg.InsertAtBeginning(head, 5);
@@ -38,7 +39,10 @@ public class LinkedList {
 		llDisplay.display(head);
 		head=reverse.reverseLinkedList(head);
 		llDisplay.display(head);
-		
+		head=delBeg.deleteFromBegining(head);
+		llDisplay.display(head);
+		head=delTarget.deleteElement(head, 99);
+		llDisplay.display(head);
 	}
 
 }
