@@ -8,6 +8,7 @@ public class LL_Display {
 			System.out.print(tag.data+" ");
 			tag=tag.next;
 		}
+		
 		System.out.println();
 	}
 }
