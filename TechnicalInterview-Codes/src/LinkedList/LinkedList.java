@@ -4,68 +4,33 @@ public class LinkedList {
 	
 	ListNode head;
 	
-	public ListNode InsertAtBeginning(ListNode head, int data) {
-		ListNode newNode=new ListNode(data);
-		newNode.next=head;
-		head=newNode;
-		return head;
-	}
+
+
 	
-	public void display(ListNode head) {
-		ListNode tag=head;
-		while(tag!=null) {
-			System.out.print(tag.data+" ");
-			tag=tag.next;
-		}
-	}
-	
-	public ListNode InsertAtEnd(ListNode head,int data) {
-		ListNode newNode=new ListNode(data);
-		newNode.next=null;
-		
-		ListNode tag=head;
-		while(tag.next!=null)
-			tag=tag.next;
-		
-		tag.next=newNode;
-		return head;
-	}
-	
-	public ListNode InsertAfterAParticularElement(ListNode head,int data, int target) {
-		ListNode newNode=new ListNode(data);
-		ListNode tag=head;
-		while(tag.data!=target) {
-			tag=tag.next;
-		}
-		newNode.next=tag.next;
-		tag.next=newNode;
-	
-		return head;
-	}
+
 
 	public static void main(String[] args) {
 
 		LinkedList list=new LinkedList();
+		LL_InsertAtBeginning insBeg=new LL_InsertAtBeginning();
+		LL_InsertAtEnd insEnd=new LL_InsertAtEnd();
+		LL_Display llDisplay=new LL_Display();
+		LL_InsertAfterParticularElement insEle=new LL_InsertAfterParticularElement();
 		ListNode head=list.head;
 		
-		head=list.InsertAtBeginning(head, 5);
-		head=list.InsertAtBeginning(head, 6);
-		head=list.InsertAtBeginning(head, 7);
+		head=insBeg.InsertAtBeginning(head, 5);
+		head=insBeg.InsertAtBeginning(head, 6);
+		head=insBeg.InsertAtBeginning(head, 7);
 		
-		list.display(head);
-		System.out.println();
-		head=list.InsertAtBeginning(head, 9);
-		list.display(head);
-		System.out.println();
-		head=list.InsertAtEnd(head, 10);
-		list.display(head);
-		
-		System.out.println();
-		head=list.InsertAfterAParticularElement(head, 99, 6);
-		list.display(head);
-		System.out.println();
-		head=list.InsertAfterAParticularElement(head, 11, 5);
-		list.display(head);
+		llDisplay.display(head);
+		head=insBeg.InsertAtBeginning(head, 9);
+		llDisplay.display(head);
+		head=insEnd.InsertAtEnd(head, 10);
+		llDisplay.display(head);
+		head=insEle.InsertAfterAParticularElement(head, 99, 6);
+		llDisplay.display(head);
+		head=insEle.InsertAfterAParticularElement(head, 11, 5);
+		llDisplay.display(head);
 		
 	}
 
