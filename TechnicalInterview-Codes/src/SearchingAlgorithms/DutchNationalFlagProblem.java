@@ -32,12 +32,6 @@ public class DutchNationalFlagProblem {
 		}
 	}
 	
-	public static void swap(int val1,int val2) {
-		int temp=val1;
-		val1=val2;
-		val2=temp;
-	}
-	
 	public static void main(String[] args) {
 		
 		int arr[]= {0,1,1,0,1,2,0,0,2,1,2,0,1};
