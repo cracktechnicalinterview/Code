@@ -7,7 +7,7 @@ public class DutchNationalFlagProblem {
 		int low=0,mid=0;
 		int high=a.length-1;
 		int temp;
-		while(mid<high) {
+		while(mid<=high) {
 			switch(a[mid]) {
 				case 0: temp=a[low];
 						a[low]=a[mid];
