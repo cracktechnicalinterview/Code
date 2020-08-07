@@ -31,7 +31,7 @@ public class RainWaterTrappingProblem {
     }
     ////////////////////////////////////////////////////////////
     
-    ////////////------------SOLUTION 2-------------////////////
+    ////////////------------SOLUTION 2 (Optimized O(n) )-------------////////////
     static int EfficientfindWater(int arr[], int n) 
     { 
         int result = 0; 
