@@ -1,11 +1,11 @@
 package SearchingAlgorithms;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class FirstNonRepeatingCharacter {
 	
 	public static void findFirstNonRep(String s) {
-		HashMap<Character, Integer> hMap=new HashMap<Character, Integer>();
+		LinkedHashMap<Character, Integer> hMap=new LinkedHashMap<Character, Integer>();
 		
 		for(int i=0;i<s.length();i++) {
 			char c=s.charAt(i);
