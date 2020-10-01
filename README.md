@@ -17,3 +17,12 @@ My name is Anindya, currently working as a member of the recruitment team among 
 Complete list of interview questions: https://bit.ly/3loMzsa
 
 But before that, don't forget to subscribe to my channel, so that you are always prepared for your next interview.
+
+# Social Connect:
+LinkedIn: https://www.linkedin.com/in/anindya-sankar-dasgupta-39a315ba/
+
+Facebook: https://www.facebook.com/anindya.s.dasgupta/
+
+Instagram: https://www.instagram.com/anindya_bunny/
+
+Youtube: https://www.youtube.com/technicalinterview
