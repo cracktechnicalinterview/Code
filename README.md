@@ -14,7 +14,7 @@ Unlike other channels,  where they directly say we will use this Data Structure 
 
 My name is Anindya, currently working as a member of the recruitment team among one of the tech giants I mentioned above :P.
 
-Complete list of interview questions: https://bit.ly/3loMzsa
+Complete list of interview questions: https://bit.ly/34HXbMI
 
 But before that, don't forget to subscribe to my channel, so that you are always prepared for your next interview.
 
