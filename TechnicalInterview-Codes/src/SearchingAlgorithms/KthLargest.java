@@ -1,4 +1,4 @@
-package PriorityQueue;
+package SearchingAlgorithms;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
