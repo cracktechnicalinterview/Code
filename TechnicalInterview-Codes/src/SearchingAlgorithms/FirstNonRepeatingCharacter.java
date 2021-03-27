@@ -1,6 +1,5 @@
 package SearchingAlgorithms;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class FirstNonRepeatingCharacter {
