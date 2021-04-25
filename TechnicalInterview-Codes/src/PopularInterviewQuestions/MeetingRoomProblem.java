@@ -1,4 +1,4 @@
-package PopularQuestions;
+package PopularInterviewQuestions;
 
 import java.util.Arrays;
 import java.util.Comparator;
