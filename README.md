@@ -1,11 +1,11 @@
-# Welcome to my youtube channel - Technical Interview
+# Welcome to my youtube channel - Interview With Bunny
 
-First thing first. Don't forget to subscribe to my channel at Youtube @ www.youtube.com/technicalinterview
+First thing first. Don't forget to subscribe to my channel at Youtube @ www.youtube.com/interviewwithbunny
 
 All the codes provided over here, are explained in great detail in my channel, mentioned above.
 So, if you get stuck anywhere, feel free to refer to the respective videos.
 
-# About Technical Interview
+# About Interview with Bunny
 
 This channel is dedicated to demystifying the questions asked in interviews of Microsoft, Google, Facebook, Oracle, and Amazon.
 In this channel, I do live coding in my videos explaining each and every line of code, with proper justification and explanation of the algorithmic approach to solve the problems.
@@ -25,4 +25,4 @@ Facebook: https://www.facebook.com/anindya.s.dasgupta/
 
 Instagram: https://www.instagram.com/anindya_bunny/
 
-Youtube: https://www.youtube.com/technicalinterview
+Youtube: https://www.youtube.com/interviewwithbunny
